@@ -135,8 +135,8 @@ export const site = {
     { date: '2023', project: 'Mobile web refresh', role: 'Frontend', techStack: 'HTML, CSS, a11y audits' },
   ],
   contact: {
-    email: 'hello@example.com',
-    github: 'https://github.com/',
+    email: 'josemanuelcipa2006@gmail.com',
+    github: 'https://github.com/JMCip',
     linkedin: 'https://www.linkedin.com/',
   },
 } as const;
