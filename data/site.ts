@@ -33,7 +33,6 @@ about: {
         'Full Stack Web Development',
         'Backend Development with Java and Spring Boot',
         'Frontend Development with Angular',
-        'Database Design and Management',
       ],
     },
     {
