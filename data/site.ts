@@ -11,13 +11,13 @@
 export const site = {
   url: 'https://example.com',
   meta: {
-    title: 'Jose Manuel Cipagauta | Estudiante Ingeneria Sistemas',
+    title: 'Jose Manuel Cipagauta | Engineering Student',
     description:
       'Portfolio example: shipping reliable web products with clear architecture, tests, and delivery practices.',
   },
   hero: {
     name: 'Jose Manuel Cipagauta',
-    role: 'Estudiante Ingenieria',
+    role: 'Engineering Student',
     tagline: 'From product intent to production — pragmatic systems, accessible UI, and maintainable code.',
     contact: 'Open to collaborations and senior IC roles on product-minded teams.',
     avatarSrc: '/favicon.svg',
