@@ -23,24 +23,34 @@ export const site = {
     avatarSrc: '/favicon.svg',
     avatarAlt: 'Jose Manuel Cipagauta',
   },
-  about: {
-    paragraphs: [
-      'A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.',
-      'I care about clear boundaries between modules, automated checks in CI, and documentation that helps the next contributor ship safely.',
-      {
-        heading: 'Example focus areas',
-        bullets: [
-          'Designing APIs and client boundaries with typed contracts',
-          'Performance budgets, caching, and pragmatic observability',
-          'Shipping incrementally with feature flags and rollback-friendly deploys',
-        ],
-      },
-      {
-        heading: 'Sample stack',
-        techItems: ['TypeScript', 'Astro', 'Tailwind CSS', 'Node', 'Vitest'],
-      },
-    ],
-  },
+about: {
+  paragraphs: [
+    'I am a fourth-semester Systems Engineering student passionate about software development and problem-solving. I enjoy building web applications that combine clean design with efficient functionality while continuously learning new technologies.',
+    'Throughout my academic projects, I have worked with both frontend and backend technologies, focusing on writing organized, maintainable, and scalable code. Every project helps me strengthen my technical skills and gain practical development experience.',
+    {
+      heading: 'Areas of Interest',
+      bullets: [
+        'Full Stack Web Development',
+        'Backend Development with Java and Spring Boot',
+        'Frontend Development with Angular',
+        'Database Design and Management',
+      ],
+    },
+    {
+      heading: 'Technologies',
+      techItems: [
+        'Java',
+        'Spring Boot',
+        'Angular',
+        'TypeScript',
+        'JavaScript',
+        'HTML',
+        'CSS',
+        'GitHub',
+      ],
+    },
+  ],
+},
   experiences: [
     {
       period: '2025',
