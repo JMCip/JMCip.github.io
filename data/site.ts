@@ -11,7 +11,7 @@
 export const site = {
   url: 'https://example.com',
   meta: {
-    title: 'Alex Morgan | Full-stack engineer',
+    title: 'Jose Manuel Cipagauta | Estudiante Ingeneria Sistemas',
     description:
       'Portfolio example: shipping reliable web products with clear architecture, tests, and delivery practices.',
   },
