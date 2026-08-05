@@ -16,8 +16,8 @@ export const site = {
       'Portfolio example: shipping reliable web products with clear architecture, tests, and delivery practices.',
   },
   hero: {
-    name: 'Alex Morgan',
-    role: 'Full-stack engineer',
+    name: 'Jose Manuel Cipagauta',
+    role: 'Estudiante Ingenieria',
     tagline: 'From product intent to production — pragmatic systems, accessible UI, and maintainable code.',
     contact: 'Open to collaborations and senior IC roles on product-minded teams.',
     avatarSrc: '/favicon.svg',
