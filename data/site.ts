@@ -11,21 +11,18 @@
 export const site = {
   url: 'https://jmcip.github.io',
   meta: {
-    title: 'Jose Manuel Cipagauta | Systems Engineering Student',
+    title: 'Jose Manuel Cipagauta | Engineering Student',
     description:
-      'Personal portfolio showcasing my academic projects, technical skills, and experience in Full Stack web development with Java, Spring Boot, and Angular.',
+      'Portfolio example: shipping reliable web products with clear architecture, tests, and delivery practices.',
   },
   hero: {
     name: 'Jose Manuel Cipagauta',
-    role: 'Systems Engineering Student',
-    tagline:
-      'Building modern web applications while learning, creating, and growing as a Full Stack Developer.',
-    contact:
-      'Open to internships, academic collaborations, and opportunities to gain professional experience.',
+    role: 'Engineering Student',
+    tagline: 'From product intent to production — pragmatic systems, accessible UI, and maintainable code.',
+    contact: 'Open to collaborations and senior IC roles on product-minded teams.',
     avatarSrc: '/favicon.svg',
     avatarAlt: 'Jose Manuel Cipagauta',
   },
-};
 about: {
   paragraphs: [
     'I am a fourth-semester Systems Engineering student passionate about software development and problem-solving. I enjoy building web applications that combine clean design with efficient functionality while continuously learning new technologies.',
