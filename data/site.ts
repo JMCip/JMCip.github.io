@@ -17,9 +17,11 @@ export const site = {
   },
   hero: {
     name: 'Jose Manuel Cipagauta',
-    role: 'Engineering Student',
-    tagline: 'From product intent to production — pragmatic systems, accessible UI, and maintainable code.',
-    contact: 'Open to collaborations and senior IC roles on product-minded teams.',
+    role: 'Systems Engineering Student',
+    tagline:
+      'Building modern web applications while learning, creating, and growing as a Full Stack Developer.',
+    contact:
+      'Open to internships, academic collaborations, and opportunities to gain professional experience.',
     avatarSrc: '/favicon.svg',
     avatarAlt: 'Jose Manuel Cipagauta',
   },
