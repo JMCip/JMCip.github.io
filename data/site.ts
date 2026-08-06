@@ -9,7 +9,7 @@
  */
 
 export const site = {
-  url: 'https://example.com',
+  url: 'https://jmcip.github.io',
   meta: {
     title: 'Jose Manuel Cipagauta | Engineering Student',
     description:
