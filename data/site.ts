@@ -114,7 +114,9 @@ about: {
       ],
     },
   ],
-  
+  featuredProjects: [
+
+  ],
 
   projectArchivePage: {
   title: 'Project Archive',
