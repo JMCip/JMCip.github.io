@@ -160,18 +160,6 @@ projectArchive: [
     role: 'Desktop Application',
     techStack: 'Java, Java Swing, MVC',
   },
-  {
-    date: '2024',
-    project: 'Traffic Simulator',
-    role: 'Java Application',
-    techStack: 'Java, Swing, MVC, OOP',
-  },
-  {
-    date: '2024',
-    project: 'Ice Cream Management System',
-    role: 'Desktop Application',
-    techStack: 'Java, Swing, MVC',
-  },
 ],
   contact: {
     email: 'josemanuelcipa2006@gmail.com',
