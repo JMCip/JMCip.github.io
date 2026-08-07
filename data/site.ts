@@ -144,14 +144,14 @@ projectArchive: [
   {
     date: '2025',
     project: 'Package Delivery Management System',
-    role: 'Desktop Application',
+    role: 'Front Development',
     techStack: 'Angular, Spring Boot, Java, TypeScript',
     repoUrl: 'https://github.com/JMCip/Package-Delivery-Management-System',
   },
   {
     date: '2025',
     project: 'Newspaper Management System',
-    role: 'Desktop Application',
+    role: 'Front Development',
     techStack: 'Angular, Spring Boot, Java, TypeScript',
     repoUrl: 'https://github.com/JMCip/newspaper-management-system',
   },
