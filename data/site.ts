@@ -54,7 +54,7 @@ about: {
 },
   experiences: [
     {
-      period: '2025',
+      period: '2026',
       title: 'DetectIA',
       company: 'Academic Full Stack Project',
       summary:
@@ -68,7 +68,7 @@ about: {
       tech: ['Angular','TypeScript','Spring Boot','Java','REST API','GitHub', 'HTML','CSS'],
     },
     {
-      period: '2025',
+      period: '2026',
       title: 'Package Delivery Management System',
       company: 'Academic Java Project',
       summary:
@@ -123,26 +123,8 @@ about: {
         },
       ],
     },
-    {
-      title: 'Nova Launch Marketing Platform',
-      period: '2024',
-      summary: 'Delivered a modular marketing site and interactive product showcase for a launch-ready SaaS brand.',
-      solution: 'Implemented a content-driven architecture with reusable card components and dynamic project pages, enabling non-technical content updates.',
-      impact: 'Reduced content update time by 80% through intuitive component-based structure; enabled marketing team independence.',
-      image: 'astro-02.jpeg',
-      imageAlt: 'Nova Launch platform interface',
-      techCategories: [
-        {
-          category: 'Frontend',
-          items: ['Astro', 'TypeScript', 'Tailwind CSS'],
-        },
-        {
-          category: 'Developer Experience',
-          items: ['Vite', 'ESLint', 'Automated Testing'],
-        },
-      ],
-    },
   ],
+
   projectArchivePage: {
     title: 'All projects',
     description: 'Project archive: dates, roles, and technologies across representative engagements.',
