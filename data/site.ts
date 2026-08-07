@@ -65,6 +65,7 @@ about: {
         'Integrated support for multiple file formats, including images, videos, audio, and PDF documents.',
         'Applied a modular architecture to improve maintainability and scalability throughout the application.',
       ],
+      repoUrl:'https://github.com/JMCip/detectIA',
       tech: ['Angular','TypeScript','Spring Boot','Java','REST API','GitHub', 'HTML','CSS'],
     },
     {
@@ -79,6 +80,7 @@ about: {
         'Applied a modular architecture to separate business logic from the presentation layer.',
         'Implemented data validation and management features to ensure accurate shipment records.',
       ],
+      repoUrl:'https://github.com/JMCip/Package-Delivery-Management-System',
       tech: [
         'Java',
         'Spring Boot',
@@ -101,6 +103,7 @@ about: {
         'Built an intuitive desktop interface with Java Swing for efficient data management.',
         'Applied input validation and organized business logic to improve reliability and maintainability.',
       ],
+      repoUrl:'https://github.com/JMCip/newspaper-management-system',
       tech: [
         'Java',
         'Java Swing',
