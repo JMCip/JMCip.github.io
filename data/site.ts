@@ -68,7 +68,7 @@ about: {
       ],
       repoUrl: 'https://github.com/JMCip/detectIA',
       tech: ['Angular', 'TypeScript', 'Spring Boot', 'Java', 'REST API', 'GitHub', 'HTML', 'CSS'],
-      image: 'detectia.webp', 
+      image: 'p1.png', 
     },
     {
       period: '2026',
@@ -93,7 +93,7 @@ about: {
         'CSS',
         'GitHub',
       ],
-      image: 'package-delivery.webp', 
+      image: 'p2.png', 
     },
     {
       period: '2026',
@@ -117,7 +117,7 @@ about: {
         'Git',
         'GitHub',
       ],
-      image: 'newspaper-management.webp', 
+      image: 'p3.png', 
     },
   ],
   featuredProjects: [
