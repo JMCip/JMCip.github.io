@@ -114,7 +114,7 @@ about: {
   featuredProjects: [
     {
       title: 'Lumen Studio Website',
-      period: '2025',
+      period: '2026',
       summary: 'Built a polished portfolio experience with accessible UI, motion-led interactions, and reusable components.',
       solution: 'Designed a modular component system with Astro and Tailwind CSS, ensuring consistent brand experience across all breakpoints.',
       impact: 'Achieved sub-1s page load metrics and 95+ Lighthouse scores through optimized asset delivery and lazy loading strategies.',
@@ -134,17 +134,45 @@ about: {
   ],
 
   projectArchivePage: {
-    title: 'All projects',
-    description: 'Project archive: dates, roles, and technologies across representative engagements.',
-    intro: 'A concise archive of engagements and representative work.',
+  title: 'Project Archive',
+  description:
+    'A collection of academic and personal software development projects showcasing my experience in Full Stack, desktop, and web application development.',
+  intro:
+    'Explore a selection of projects that reflect my academic journey, technical growth, and passion for building software solutions.',
+},
+
+projectArchive: [
+  {
+    date: '2025',
+    project: 'DetectIA',
+    role: 'Full Stack Development',
+    techStack: 'Angular, Spring Boot, Java, TypeScript, MySQL',
   },
-  projectArchive: [
-    { date: '2025', project: 'Design system rollout', role: 'Frontend', techStack: 'Astro, CSS, Storybook' },
-    { date: '2024', project: 'Checkout reliability', role: 'Full-stack', techStack: 'TypeScript, Postgres, Redis' },
-    { date: '2024', project: 'Auth hardening', role: 'Backend', techStack: 'OAuth2, JWT, rate limits' },
-    { date: '2023', project: 'Analytics pipeline', role: 'Data', techStack: 'SQL, dbt, warehouse' },
-    { date: '2023', project: 'Mobile web refresh', role: 'Frontend', techStack: 'HTML, CSS, a11y audits' },
-  ],
+  {
+    date: '2025',
+    project: 'Package Delivery Management System',
+    role: 'Desktop Application',
+    techStack: 'Java, Java Swing, MVC',
+  },
+  {
+    date: '2025',
+    project: 'Newspaper Management System',
+    role: 'Desktop Application',
+    techStack: 'Java, Java Swing, MVC',
+  },
+  {
+    date: '2024',
+    project: 'Traffic Simulator',
+    role: 'Java Application',
+    techStack: 'Java, Swing, MVC, OOP',
+  },
+  {
+    date: '2024',
+    project: 'Ice Cream Management System',
+    role: 'Desktop Application',
+    techStack: 'Java, Swing, MVC',
+  },
+],
   contact: {
     email: 'josemanuelcipa2006@gmail.com',
     github: 'https://github.com/JMCip',
