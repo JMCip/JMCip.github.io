@@ -114,27 +114,7 @@ about: {
       ],
     },
   ],
-  featuredProjects: [
-    {
-      title: 'Lumen Studio Website',
-      period: '2026',
-      summary: 'Built a polished portfolio experience with accessible UI, motion-led interactions, and reusable components.',
-      solution: 'Designed a modular component system with Astro and Tailwind CSS, ensuring consistent brand experience across all breakpoints.',
-      impact: 'Achieved sub-1s page load metrics and 95+ Lighthouse scores through optimized asset delivery and lazy loading strategies.',
-      image: 'astro-01.webp',
-      imageAlt: 'Lumen Studio website showcase',
-      techCategories: [
-        {
-          category: 'Frontend',
-          items: ['TypeScript', 'Astro', 'Tailwind CSS', 'Responsive Design'],
-        },
-        {
-          category: 'Performance',
-          items: ['Asset Optimization', 'Lazy Loading', 'Image CDN'],
-        },
-      ],
-    },
-  ],
+  
 
   projectArchivePage: {
   title: 'Project Archive',
