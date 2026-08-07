@@ -90,17 +90,25 @@ about: {
       ],
     },
     {
-      period: '2023',
-      title: 'UI Engineer',
-      company: 'Orbital Creative',
+      period: '2025',
+      title: 'Newspaper Management System',
+      company: 'Academic Java Project',
       summary:
-        'Created an interactive product showcase with a clean visual system and accessible component library.',
+        'Developed a desktop application to manage newspaper subscriptions, customer records, and publication distribution through a structured and user-friendly interface.',
       highlights: [
-        'Built a flexible project card system for content updates without code changes',
-        'Improved brand consistency with typography, color, and motion guidelines',
-        'Added testing and quality checks for cross-device UI fidelity',
+        'Designed the application using Object-Oriented Programming principles and modular Java architecture.',
+        'Implemented newspaper subscription and customer management functionalities.',
+        'Built an intuitive desktop interface with Java Swing for efficient data management.',
+        'Applied input validation and organized business logic to improve reliability and maintainability.',
       ],
-      tech: ['Astro', 'Tailwind CSS', 'JavaScript', 'Node', 'Vitest'],
+      tech: [
+        'Java',
+        'Java Swing',
+        'Object-Oriented Programming',
+        'MVC',
+        'Git',
+        'GitHub',
+      ],
     },
   ],
   featuredProjects: [
