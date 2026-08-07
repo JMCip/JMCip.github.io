@@ -138,18 +138,21 @@ projectArchive: [
     project: 'DetectIA',
     role: 'Full Stack Development',
     techStack: 'Angular, Spring Boot, Java, TypeScript, MySQL',
+    repoUrl: 'https://github.com/JMCip/detectIA',
   },
   {
     date: '2025',
     project: 'Package Delivery Management System',
     role: 'Desktop Application',
     techStack: 'Java, Java Swing, MVC',
+    repoUrl: 'https://github.com/JMCip/Package-Delivery-Management-System',
   },
   {
     date: '2025',
     project: 'Newspaper Management System',
     role: 'Desktop Application',
     techStack: 'Java, Java Swing, MVC',
+    repoUrl: 'https://github.com/JMCip/newspaper-management-system',
   },
 ],
   contact: {
