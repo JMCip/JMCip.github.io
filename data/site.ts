@@ -148,7 +148,7 @@ about: {
   contact: {
     email: 'josemanuelcipa2006@gmail.com',
     github: 'https://github.com/JMCip',
-    linkedin: 'https://www.linkedin.com/',
+    linkedin: 'www.linkedin.com/in/jose-manuel-cipagauta-toro-7b69b2349',
   },
 } as const;
 
