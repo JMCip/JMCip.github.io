@@ -22,7 +22,7 @@ export const site = {
       'Building modern web applications while learning, creating, and growing as a Full Stack Developer.',
     contact:
       'Open to internships, academic collaborations, and opportunities to gain professional experience.',
-    avatarSrc: '/favicon.svg',
+    avatarSrc: '/favicon.png',
     avatarAlt: 'Jose Manuel Cipagauta',
   },
 about: {
@@ -135,21 +135,21 @@ about: {
 
 projectArchive: [
   {
-    date: '2025',
+    date: '2026',
     project: 'DetectIA',
     role: 'Full Stack Development',
     techStack: 'Angular, Spring Boot, Java, TypeScript',
     repoUrl: 'https://github.com/JMCip/detectIA',
   },
   {
-    date: '2025',
+    date: '2026',
     project: 'Package Delivery Management System',
     role: 'Front Development',
     techStack: 'Angular, Spring Boot, Java, TypeScript',
     repoUrl: 'https://github.com/JMCip/Package-Delivery-Management-System',
   },
   {
-    date: '2025',
+    date: '2026',
     project: 'Newspaper Management System',
     role: 'Front Development',
     techStack: 'Angular, Spring Boot, Java, TypeScript',
