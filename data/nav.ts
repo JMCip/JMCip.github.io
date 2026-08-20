@@ -7,7 +7,7 @@ export const topNavLinks = [
   { href: '/', label: 'Inicio' },
   { href: '/presentacion', label: 'Presentación Video' },
   { href: '/proyecto', label: 'Proyectos' },
-  { href: '#modelado', label: 'Modelado' },
+   { href: '/modelado', label: 'Modelado' },
   { href: '#normalizacion', label: 'Normalización' },
   { href: '#sql', label: 'SQL' },
 ] as const;
