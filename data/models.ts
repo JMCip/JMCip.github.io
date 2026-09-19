@@ -113,4 +113,17 @@ export const models: ModelItem[] = [
     category: 'eer',
     image: '/models/Ejercicio2-discoduroderoer.drawio.png',
   },
+  {
+    id: 'taller-reduccion-tablas-libreria',
+    title: 'Taller Reducción a Tablas - Librería',
+    description:
+      'Modelo entidad-relación de una librería, utilizado como punto de partida para el taller de reducción a tablas. Incluye AUTOR y EDITOR relacionados M:N con LIBRO (escrito-por, editado-por); CLIENTE relacionado M:N con CESTA-DE-LA-COMPRA (cesta-de), la cual a su vez contiene libros mediante otra relación M:N (contiene); y ALMACEN relacionado M:N con LIBRO (almacena). Al tratarse de relaciones M:N, cada una requiere una tabla intermedia al reducir el modelo al esquema relacional.',
+    date: '2026',
+    category: 'reduccion',
+    image: '/models/Actividad Tranformacion.drawio.png',
+  },
+  //FALTA PONER MODELO DEL PRE PARCIAL Y EL DEL PARCIAL ADEMAS DE LA REDUCCION A TABLAS DEL TALLER 1
+  //FALTA PONER MODELO DEL PRE PARCIAL Y EL DEL PARCIAL ADEMAS DE LA REDUCCION A TABLAS DEL TALLER 1
+  //FALTA PONER MODELO DEL PRE PARCIAL Y EL DEL PARCIAL ADEMAS DE LA REDUCCION A TABLAS DEL TALLER 1 
+  //y ademas reducciones a tabla de la actividad de al segunda hoja del pdf
 ];
