@@ -17,7 +17,7 @@ export const modelFolders: ModelFolder[] = [
   {
     slug: 'eer',
     title: 'Modelo ER Extendido',
-    description: 'Modelos EER: herencia, especialización y generalización.',
+    description: 'Modelos EER: Relaciones reflexibas, especializacion y generalizacion, agregacion',
     icon: 'ph:folder',
   },
   {

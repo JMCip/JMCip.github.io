@@ -78,4 +78,39 @@ export const models: ModelItem[] = [
     category: 'eer',
     image: '/models/Ejercicio2 Quiz1.png',
   },
+  {
+    id: 'taller1-aeroandes-er',
+    title: 'Modelo ER - Aerolínea AeroAndes',
+    description:'Modelo entidad-relación conceptual de una aerolínea, en notación de Peter Chen. Incluye las entidades PASAJERO, RUTA, VUELO (entidad débil), AVION, CERTIFICADO, TRIPULANTE, INSUMO, PROVEEDOR y TABLET, con atributos compuestos, multivaluados y derivados; relaciones binarias, recursivas (SUPERVISA, CONECTA), una relación ternaria (SUMINISTRA), una agregación (DOTA) y una jerarquía de especialización total y disjunta de TRIPULANTE en PILOTO y AUXILIAR.',
+    date: '2026',
+    category: 'eer',
+    image: '/models/Taller 1 Tranformaciones Modelo ER-Modelo E-R.drawio.png',
+  },
+ {
+    id: 'servicios-urgencia-er',
+    title: 'Modelo ER Extendido - Servicios de Urgencia Hospitalaria',
+    description:
+      'Modelo entidad-relación con especialización total y disjunta de EMPLEADO en CONDUCTOR_AMBULANCIA y PERSONAL_SANITARIO. Incluye las entidades HOSPITAL, GRUPO y AMBULANCIA; la relación M:N entre PERSONAL_SANITARIO y HOSPITAL (con fechas de alta y baja), la relación de GUARDIAS (fecha, turno, horas), los VIAJES de los conductores a los hospitales (fecha, población, kilómetros, horas), la pertenencia de cada sanitario a un GRUPO (con el puesto que ocupa), y la relación 1:1 opcional entre CONDUCTOR_AMBULANCIA y AMBULANCIA.',
+    date: '2026',
+    category: 'eer',
+    image: '/models/Ejercicio3-discoduroderoer.drawio.png',
+  },
+  {
+    id: 'biblioteca-enciclopedias-er',
+    title: 'Modelo ER Extendido - Biblioteca de Enciclopedias',
+    description:
+      'Modelo entidad-relación con especialización de EMPLEADO en EMPLEADO_MANTENIMIENTO y EMPLEADO_GESTION. Incluye ENCICLOPEDIA relacionada M:N con AUTOR, y TOMO como entidad débil dependiente de ENCICLOPEDIA (identificado por su número, repetible entre enciclopedias). Contempla ALUMNO con varias TARJETA de acceso (clave compuesta DNI + tipo de acceso), cada una asociada a un TIPO_ACCESO (máximo de consultas y precio); la relación M:N de CONSULTA entre TARJETA y TOMO (fecha y duración); la ubicación de cada TOMO en un ARMARIO (pasillo, letra y capacidad); y las relaciones de mantenimiento de armarios y elaboración de tarjetas a cargo de cada tipo de empleado.',
+    date: '2026',
+    category: 'eer',
+    image: '/models/Ejercicio4-discoduroderoer.drawio.png',
+  },
+  {
+    id: 'ongs-er',
+    title: 'Modelo ER Extendido - Coordinadora Nacional de ONGs',
+    description:
+      'Modelo entidad-relación con especialización total de TRABAJADOR en ASALARIADO (cargo, seguridad social, IRPF) y VOLUNTARIO (edad, profesión, horas dedicadas). Incluye ASOCIACION (CIF, denominación, tipo, utilidad pública) relacionada M:N con SOCIO (con cuota mensual y aportación anual derivada), y 1:N con TRABAJADOR. Contempla PROYECTO, asignado M:N a los trabajadores de la asociación, con una relación reflexiva de composición entre PROYECTO y sus SUBPROYECTOS.',
+    date: '2026',
+    category: 'eer',
+    image: '/models/Ejercicio2-discoduroderoer.drawio.png',
+  },
 ];
