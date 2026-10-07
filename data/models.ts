@@ -122,8 +122,24 @@ export const models: ModelItem[] = [
     category: 'reduccion',
     image: '/models/Actividad Tranformacion.drawio.png',
   },
-  //FALTA PONER MODELO DEL PRE PARCIAL Y EL DEL PARCIAL ADEMAS DE LA REDUCCION A TABLAS DEL TALLER 1
-  //FALTA PONER MODELO DEL PRE PARCIAL Y EL DEL PARCIAL ADEMAS DE LA REDUCCION A TABLAS DEL TALLER 1
-  //FALTA PONER MODELO DEL PRE PARCIAL Y EL DEL PARCIAL ADEMAS DE LA REDUCCION A TABLAS DEL TALLER 1 
+  {
+    id: 'parcial1-cineandes-er',
+    title: 'Modelo ER Extendido - Cadena de Cines CineAndes',
+    description:
+      'Modelo entidad-relación extendido para la cadena de cines CineAndes. Incluye SEDE (dirección compuesta, teléfono multivaluado) relacionada 1:N con SALA, y SALA relacionada 1:N con SILLA (ambas entidades débiles). Contempla PELICULA (con antigüedad derivada e idioma multivaluado) y su relación reflexiva de secuela/precuela; FUNCION como entidad débil dependiente de SALA, relacionada con PELICULA (proyectar) y con CLIENTE mediante la relación M:N comprar. Incluye además EMPLEADO con una especialización total y disjunta en PROYECCIONISTA y TAQUILLERO, una relación reflexiva de supervisión, y las relaciones entregar (PROVEEDOR-PRODUCTO-SEDE) y comprar con MEDIO_PAGO resuelta como agregación.',
+    date: '2026',
+    category: 'eer',
+    image: '/models/preparcialBasesDatos1.drawio.png',
+  },
+  {
+    id: 'parcial1-cineandes-reduccion',
+    title: 'Parcial 1 - Reducción a Tablas: CineAndes',
+    description:
+      'Aplicación de las reglas de transformación al modelo entidad-relación extendido de CineAndes, dejándolo listo para el paso al modelo relacional. Se elimina el atributo multivaluado teléfono de SEDE creando la entidad TELEFONO; se transforma la relación M:N:M entregar (PROVEEDOR-PRODUCTO-SEDE) en la entidad asociativa PRO_SED_PRO; se separa el atributo multivaluado idioma de PELICULA en la entidad IDIOMA; y se convierte la agregación comprar-MEDIO_PAGO en la entidad FUN_MED_CLIE, resultante de reducir la relación M:N entre FUNCION y CLIENTE junto con su relación con MEDIO_PAGO.',
+    date: '2026',
+    category: 'reduccion',
+    image: '/models/preparcialBasesDatos1Reduccion.drawio.png',
+  },
+  //FALTA PONER REDUCCION A TABLAS DEL TALLER 1
   //y ademas reducciones a tabla de la actividad de al segunda hoja del pdf
 ];
