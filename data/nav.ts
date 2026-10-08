@@ -8,6 +8,6 @@ export const topNavLinks = [
   { href: '/presentacion', label: 'Presentación Video' },
   { href: '/proyecto', label: 'Proyectos' },
    { href: '/modelado', label: 'Modelado' },
-  { href: '#normalizacion', label: 'Normalización' },
+  { href: '/normalizacion', label: 'Normalización' },
   { href: '#sql', label: 'SQL' },
 ] as const;
