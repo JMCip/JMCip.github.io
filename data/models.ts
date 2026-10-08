@@ -140,6 +140,14 @@ export const models: ModelItem[] = [
     category: 'reduccion',
     image: '/models/preparcialBasesDatos1Reduccion.drawio.png',
   },
+ {
+    id: 'actividad-zoologico-reduccion',
+    title: 'Actividad Reducción a Tablas - Zoológico',
+    description:
+      'Aplicación de las reglas de transformación al modelo entidad-relación de un zoológico, dejándolo listo para el paso al modelo relacional. Las relaciones M:N entre HABITAT y CONTINENTE, HABITAT y ESPECIE, ZONA e ITINERARIO, y entre ESPECIE y CUIDADOR (con el atributo fecha) e ITINERARIO y GUIA (con el atributo hora) se convierten en entidades asociativas (HABIT_CONTI, HABIT_ESPE, ZONA_ITINERA, ESPE_CUIDA e ITINE_GUIA), cada una conectada con sus entidades originales mediante relaciones 1:N. Además, el atributo multivaluado teléfono de CUIDADOR y GUIA se separa en la entidad débil TELEFONO.',
+    date: '2026',
+    category: 'reduccion',
+    image: '/models/Actividad TranformacionPunto2.drawio.png',
+  },
   //FALTA PONER REDUCCION A TABLAS DEL TALLER 1
-  //y ademas reducciones a tabla de la actividad de al segunda hoja del pdf
 ];
