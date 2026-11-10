@@ -9,5 +9,5 @@ export const topNavLinks = [
   { href: '/proyecto', label: 'Proyectos' },
    { href: '/modelado', label: 'Modelado' },
   { href: '/normalizacion', label: 'Normalización' },
-  { href: '#sql', label: 'SQL' },
+  { href: '/sql', label: 'SQL' },
 ] as const;
